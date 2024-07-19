@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+  <table border="1" align="center" cellpanding="0" cellspecing="10"> 
+    <form>  
+        <th>Novell service login</th> 
+        <table border="1" align="center" cellpanding="0">
+        <tr> 
+            <td> 
+               <label> Usename :</label>
+            </td> 
+            <td> 
+                <input type="usename" name="usename" placeholder="Write Your Name">
+            </td>
+        </tr> 
+        <tr> 
+            <td> 
+              <label> Password : </label>
+            </td> 
+            <td> 
+                <input type="password" name="password" placeholder="Enter your password">
+            </td>
+        </tr> 
+        <tr>  
+            <td>City of Employment</td>
+            <td> 
+                <select name="City">
+                <option>__selected  city__</option> 
+                <option>surat</option> 
+                <option>ahmedabad</option> 
+                <option>vadodra</option> 
+                <option>Rajkot</option> 
+            </select>
+            </td>
+        </tr> 
+        <tr> 
+            <td>Web server:</td> 
+            <td> 
+                <select name="web" > 
+                <option>__choose a server__</option>
+                 <option>Client 1</option>     
+                 <option>Client 2</option>     
+                 <option>Client 3</option>    
+                 </select>           
+            </td>
+        </tr> 
+        <tr>
+        <td>PLease Specify Your Role:</td>
+        
+            <td> 
+                <label for="PLease Specify Your Role"></label> 
+                <input type="radio" name="PLease Specify Your Role" value="Admin">Admin <br>
+                <input type="radio" name="PLease Specify Your Role" value="Engineer">Engineer<br>
+                <input type="radio" name="PLease Specify Your Role" value="Manager">Manager<br>
+                <input type="radio" name="PLease Specify Your Role" value="Guest">Guest<br>
+
+            </td>
+        </tr> 
+        <tr> 
+            <td>Single Sing -on To The Following:</td> 
+            <td> 
+                <label for="Single Sing -on To The Following"></label> 
+                <input type="checkbox" name="Single Sing -on To The Following" value="Mail" >Mail <br>
+                <input type="checkbox" name="Single Sing -on To The Following" value="Payroll">Payroll<br> 
+                <input type="checkbox" name="Single Sing -on To The Following" value="Self-Service">Self-Service<br>
+            </td>
+        </tr>
+         
+        <tr align="center">   
+            <td>
+         <label>Log in</label>
+        <input type="Log in" name="Log in" value="Log in">  
+
+        <label>reset</label> 
+        <input type="reset" name="reset" value="reset"> 
+    </td>
+    </tr>
+    </form>
+  </table>  
+</body>
+</html>
